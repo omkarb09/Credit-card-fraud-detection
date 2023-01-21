@@ -14,20 +14,16 @@ Logistic regression
 
 
  -	Two logistic regression models are created. One is the full model which has all the features and the other is a partial model which omits non-correlated features (features mentioned above).
+ 
 -	Full model score Vs Partial model score
-![image](https://user-images.githubusercontent.com/44408619/213869643-01b5ef45-cf89-49f5-aca2-34d5c8af92a6.png)
 
-![image](https://user-images.githubusercontent.com/44408619/213869648-fc5be507-c41c-4008-ae22-25b98ba57068.png)
 
 
 -	Full model classification report Vs Partial model classification report
-![image](https://user-images.githubusercontent.com/44408619/213869450-dabc90d1-d638-430e-87dc-bf85e439d59c.png)
-![image](https://user-images.githubusercontent.com/44408619/213869453-acb3530a-6a7d-4106-ac03-79fdb2ee3701.png)
+
 
 -	Full model ROC vs Partial model ROC
-![image](https://user-images.githubusercontent.com/44408619/213869659-3667d206-12c1-49ee-afb2-da623e4e2c67.png)
 
-![image](https://user-images.githubusercontent.com/44408619/213869664-34565d28-8922-469a-b33b-ab017a0286f4.png)
 
 
 Things achieved through the project
