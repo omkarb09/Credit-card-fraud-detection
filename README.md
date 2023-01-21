@@ -17,13 +17,16 @@ Logistic regression
  
 -	Full model score Vs Partial model score
 
+![image](https://user-images.githubusercontent.com/44408619/213869810-24513830-e850-4bd7-8ecd-0e058f4a2951.png)
 
 
 -	Full model classification report Vs Partial model classification report
 
+![image](https://user-images.githubusercontent.com/44408619/213869833-31012359-b097-42ff-b2c2-e77a6cc117e8.png)
 
 -	Full model ROC vs Partial model ROC
 
+![image](https://user-images.githubusercontent.com/44408619/213869850-db755f91-7f9c-4759-9264-dacbf4ada056.png)
 
 
 Things achieved through the project
