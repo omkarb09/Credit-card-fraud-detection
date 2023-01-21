@@ -10,20 +10,25 @@ Logistic regression
 -	The data was divided into training (75%) and test data (25%)
 -	Counts of target feature ‘Class’ to check the distribution of values. 284315 values were 0 and 492 values were 1.
 -	Plotting correlation heatmap to identify which features are correlated with ‘Class’. Features V4, V8, V13, V15, V22, V23, V24, V25 and V26 have no meaningful correlation with ‘Class’.
-[image](https://user-images.githubusercontent.com/44408619/213869395-8a346e2e-8606-42fc-8671-9ca4d51b5dbc.png)
+![image](https://user-images.githubusercontent.com/44408619/213869625-ecd63cd9-2c3c-43ce-bab9-c63085eeadfe.png)
+
 
  -	Two logistic regression models are created. One is the full model which has all the features and the other is a partial model which omits non-correlated features (features mentioned above).
 -	Full model score Vs Partial model score
-![image](https://user-images.githubusercontent.com/44408619/213869410-bc856393-9768-41de-82ae-1ba0c23c62ec.png)
-![image](https://user-images.githubusercontent.com/44408619/213869419-13771e98-8de0-4898-bd60-91f60de9ed68.png)
+![image](https://user-images.githubusercontent.com/44408619/213869643-01b5ef45-cf89-49f5-aca2-34d5c8af92a6.png)
+
+![image](https://user-images.githubusercontent.com/44408619/213869648-fc5be507-c41c-4008-ae22-25b98ba57068.png)
+
 
 -	Full model classification report Vs Partial model classification report
 ![image](https://user-images.githubusercontent.com/44408619/213869450-dabc90d1-d638-430e-87dc-bf85e439d59c.png)
 ![image](https://user-images.githubusercontent.com/44408619/213869453-acb3530a-6a7d-4106-ac03-79fdb2ee3701.png)
 
 -	Full model ROC vs Partial model ROC
-![image](https://user-images.githubusercontent.com/44408619/213869484-652a8a3e-2b19-4f0e-bc71-44e19ab0d6de.png)
-![image](https://user-images.githubusercontent.com/44408619/213869488-e9a72587-6e26-442a-b624-8d8fff9903c2.png)
+![image](https://user-images.githubusercontent.com/44408619/213869659-3667d206-12c1-49ee-afb2-da623e4e2c67.png)
+
+![image](https://user-images.githubusercontent.com/44408619/213869664-34565d28-8922-469a-b33b-ab017a0286f4.png)
+
 
 Things achieved through the project
 -	Exploratory Data Analysis of the Dataset. Getting the counts of target feature ‘Class’ to check the distribution of values, getting correlation between all features and plotting correlation heatmap to identify which features are correlated with ‘Class’
